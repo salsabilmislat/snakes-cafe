@@ -71,5 +71,16 @@ while item !="Quit":
     elif(item =="Quit"):
         break
 
+    else:
+         print("the item you ordered is not on the menu")
+         item=input("> do you want to order more? ").title()
+    
+         if item=="Quit":
+             break
+         else:
+             continue
+
+
+
 
       
